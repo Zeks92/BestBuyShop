@@ -10,16 +10,17 @@ MEVN Stack Shopping Cart
 
 ## Build Setup
 ```
-# install dependencies
-npm install
 
-# run server
+# server
 cd server
 npm start
 
-# run client
-cd client
-npm run dev
 
+# client
+cd client
+> Install dependencies
+npm install
+> Serve with hot reload at localhost:8080
+npm run dev
 
 ```
