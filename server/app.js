@@ -16,10 +16,7 @@ var app = express();
 
 // Mongoose connection
 const mongoDB = 'mongodb://zeks92:zeks92@ds137008.mlab.com:37008/bestbuyshop';
-mongoose.connect(mongoDB, {
-  useNewUrlParse = true,
-  useUnifiedTopology = true
-});
+mongoose.connect(mongoDB);
 // Mongoose must use global promise library
 mongoose.Promise = global.Promise;
 // Get default connection

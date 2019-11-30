@@ -8,16 +8,18 @@ MEVN Stack Shopping Cart
 
 > Products seperated via pagination for better loading
 
-##  Setup
+## Build Setup
 ```
+# install dependencies
+npm install
 
-# server
+# run server
 cd server
 npm start
 
-# client
+# run client
 cd client
-> Install dependencies
-npm install
-> Serve with hot reload at localhost:8080
 npm run dev
+
+
+```
