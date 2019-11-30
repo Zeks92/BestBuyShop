@@ -13,6 +13,9 @@ MEVN Stack Shopping Cart
 
 # server
 cd server
+> Install dependencies
+npm install
+> Start server
 npm start
 
 
